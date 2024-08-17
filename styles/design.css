@@ -33,11 +33,9 @@
   /* header styles */
   .header-container{
     padding: 5rem 0;
-    background: linear-gradient(180.00deg,
-     rgb(17, 17, 17),
-     rgba(119, 119, 119, 0.01) 100%);
-   
-   
+    background: linear-gradient(140.00deg,
+    rgb(17, 17, 17),
+    rgba(117, 117, 117, 0.1) 90%) ;   
   }
   .navbar-container{
     justify-content: space-between;
@@ -58,6 +56,7 @@
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
+    padding: 4px;
   }
   .home{
     border-radius: 46px;
@@ -73,9 +72,7 @@
   .banner-section{
     gap: 65px;
   }
-  .banner-details{
-    width: 520px;
-  }
+ 
   .banner-section h1{
     font-size: 78px;
     font-weight: 900;
@@ -170,6 +167,35 @@
     font-size: 40px;
     font-weight: 900;
       
+  }
+  /* Change your habits */
+  .change-your-habits{
+    margin-top: 20px;
+    text-align: center;
+    gap: 14px;
+  }
+  .section-details{
+    margin-bottom:54px ;
+  }
+  .change-your-habits h2{
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .change-your-habits p,.your-habit p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+   
+  }
+  .your-habit h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 14px;
+  }
+  .your-habit img{
+    border-radius: 50%;
+    gap: 35px;
+   
   }
   /* Mobile Responsive */
   @media screen and (max-width:576px) {

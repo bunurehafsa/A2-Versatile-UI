@@ -118,9 +118,7 @@
     top: 120px;
     left:820px ;
     
-  }
-  
-  
+  } 
   .banner-btn1{
     
     width: 206px;
@@ -178,12 +176,12 @@
   .section-details{
     margin-bottom:54px ;
   }
-  .change-your-habits h2,.run-extra h2{
+  .change-your-habits h2,.run-extra h2,.our-team h2{
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
   }
-  .change-your-habits p,.your-habit p,.run-extra p{
+  .change-your-habits p,.your-habit p,.run-extra p,.our-team p{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
    
@@ -225,6 +223,48 @@
     height: 300px; 
     border-radius: 18px;   
   }
+  /* meet our team */
+  .our-team{
+   text-align: center; 
+  }
+  .trainers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+ 
+  .trainers img{
+    width: 290px;
+    height: 272px;
+    border-radius: 18px;
+    margin: 10px 10px -10px 10px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .name{
+    position: relative;   
+    top: -25%;
+    margin-left: -120px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;    
+  }
+  .name2{
+    position: relative;   
+    top: -25%;
+    margin-left: -60px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;      
+  }
+  .trainer{
+    position: relative;
+    margin-left:-180px ;
+    top: -20%;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+  }
   /* Mobile Responsive */
   @media screen and (max-width:576px) {
     
@@ -257,7 +297,7 @@
         padding: 12px 30px;
        } 
       
-      .banner-section{
+      .banner-section,.trainers{
         display: grid;
         grid-template-columns: 1fr;
       }
@@ -306,7 +346,7 @@
         margin-top: 16px;
         margin-left: 30px;
       }
-      .change-your-habits h2,.run-extra h2{
+      .change-your-habits h2,.run-extra h2,.our-team h2{
         font-size: 32px;
         margin-bottom: 14px;
       }
@@ -332,6 +372,17 @@
       .run-details p{
         width: 287px;
       }
+      .trainers{
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 20px ;
+        width: 353px;
+      }
+      .trainers img{
+        width: 310px;
+        height: 280px;
+       
+      }
       .run-btn{
         width: 287px;
       }
@@ -341,4 +392,5 @@
         height: 190px;
         margin-left: -1px;
       }
+
   }

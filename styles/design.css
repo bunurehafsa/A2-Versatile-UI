@@ -8,7 +8,8 @@
   font-weight: 400;
   font-style: normal;
   background-color:  rgb(0, 0, 0);
-  color:rgb(255, 255, 255); ;
+  color:rgb(255, 255, 255); 
+  overflow-x: hidden;
 }
 @font-face {
     font-family: 'Miama';
@@ -24,7 +25,7 @@
   .container{
     
     width: 75%;
-    margin: 5rem auto; 
+    margin: 5rem auto 0; 
     border-radius: 1rem;
   }
   .display{
@@ -42,10 +43,10 @@
     justify-content: space-between;
     align-items: center;
     width: 75%;
-    margin: 0 auto 5rem; 
+    margin: 0 auto ; 
     
   }
-  .navbar-container .logo{
+  .logo{
     color:rgb(230, 83, 60) ;
     font-weight: 800;
     font-style: italic;
@@ -265,6 +266,57 @@
     font-size: 14px;
     font-weight: 400;
   }
+  .footer-section{
+    
+    margin-top: 88px ;
+    margin-bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .footer-section .logo{
+    font-size: 70px;
+    
+  }
+  .footer-details p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 433px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+  .footer{
+    padding: 0px 180px 0px;
+    justify-content: space-between;
+    
+    
+  }
+  .started h3{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .started p{
+    font-size: 23px;
+    font-weight: 350;
+    color: rgba(255, 255, 255,0.5);
+    margin-top: 20px;
+    line-height: 120%;
+  }
+  .footer-grid{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .copyright{
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  hr{
+     border: 1px solid rgba(255, 255, 255, 0.1);;
+  }
+  .copyright p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 35px;
+  }
   /* Mobile Responsive */
   @media screen and (max-width:576px) {
     
@@ -312,7 +364,7 @@
         top: 500px;
       }
       .header-container{
-        width: 420px;
+        width: 440px;
         height: 970px;
       }
       .banner-btn1{
@@ -360,17 +412,32 @@
         margin-left: 53px;
       }  
       .run-extra{
-        width: 90%;
+        width: 353px;
         margin-left: 10px;
-        padding:33px ;
+        padding:20px  ;
         flex-direction: column;
       }  
       .run-details {
-        width: 287px;
-        height: 460px;
+        width: 320px;
+        height: 520px;
       }
       .run-details p{
-        width: 287px;
+        width: 340px;
+      }
+      
+      .run-btn{
+        width: 340px;
+       
+      }
+      .run-extra img{
+        margin-top: -245px;
+        width: 340px;
+        height: 240px;
+        margin-left: -1px;
+      }
+      .our-team h2,.our-team p{
+        margin-top: 10px;
+        margin-left:40px ;
       }
       .trainers{
         margin-left: 20px;
@@ -383,14 +450,22 @@
         height: 280px;
        
       }
-      .run-btn{
-        width: 287px;
+      .footer{
+        flex-direction: column;
+        
+        margin-top:1px ;
+        padding: 10px;
       }
-      .run-extra img{
-        margin-top: -185px;
-        width: 287px;
-        height: 190px;
-        margin-left: -1px;
+      .footer-details,.started{
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+      .footer p{
+        width: 317px;
+      }
+      .footer-section{
+        width: 440px;
+        padding:66px 0px 0px;
       }
 
   }

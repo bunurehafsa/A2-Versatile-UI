@@ -177,12 +177,12 @@
   .section-details{
     margin-bottom:54px ;
   }
-  .change-your-habits h2,.run-extra h2,.our-team h2, .bmi h2{
+  .change-your-habits h2,.run-extra h2,.our-team h2, .bmi h2,.yoga h2{
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
   }
-  .change-your-habits p,.your-habit p,.run-extra p,.our-team p,.bmi-calculator p,.bmi p{
+  .change-your-habits p,.your-habit p,.run-extra p,.our-team p,.bmi-calculator p,.bmi p,.yoga p{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
    
@@ -230,6 +230,19 @@
     margin-left: 350px;
     margin-top: 65px;
   }
+  .yoga-pose{
+    text-align: center;
+  }
+  .yoga p{
+    width: 790px;
+    margin-left: 130px;
+  }
+  .video{
+    margin-top: 80px ;
+    margin-bottom: 33px;
+    border: 2rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+}
   .bmi p{
     width: 670px;
     letter-spacing:  0.3px;
@@ -473,7 +486,7 @@ td{
         margin-top: 16px;
         margin-left: 30px;
       }
-      .change-your-habits h2,.run-extra h2,.our-team h2,.bmi h2{
+      .change-your-habits h2,.run-extra h2,.our-team h2,.bmi h2,.yoga h2{
         font-size: 32px;
         margin-bottom: 14px;
       }
@@ -486,6 +499,10 @@ td{
         width: 231px;
         margin-left: 53px;
       }  
+      .yoga p{
+        width: 270px;
+        margin-left: 55px;
+      }
       .run-extra{
         width: 353px;
         margin-left: 10px;
@@ -613,6 +630,13 @@ td{
       }
       .footer p{
         width: 317px;
+      }
+      .video{
+        width:340px ;
+        height: 200px;
+        border: 16px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        margin-top: 40px;
       }
       .footer-section,.bmi-calculator{
         width: 440px;
